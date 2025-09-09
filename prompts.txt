@@ -1,0 +1,25 @@
+Create a responsive one-page HTML, CSS, and JavaScript website for dhhs grants program Showing how It's a Department of Health and Human Services that offers to helps people from all backgrounds whether you’re working, a student, retired, young or old, deaf or hearing, widowed, or living with a disability. By offering grants and financial support to make life easier. Also show testimonials of people who got money from the program and also ratings 
+Requirements:  
+1. Use a light blue background with a modern, clean design.  
+2. At the top, add a header section with my program title and a short description.  
+3. Below that, add a "Sign Up" section and embed a Google Form using an iframe.  
+   - Use this sample iframe code and keep it inside the page so I can replace the link later:  
+   <iframe
+ src="https://docs.google.com/forms/d/e/1FAIpQLSdCKpiA2U5BHqUoTSFzGKkdSxmAGdqI69kzzmZrb9nI-dg89w/viewform?embedded=true" width="640" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  
+4. Add the Tawk.to live chat widget at the bottom of the page.  
+   - Use this sample script and keep it in the page so I can replace the property ID later:  
+   <script type="text/javascript">  
+     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();  
+     (function(){  
+       var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];  
+       s1.async=true;  
+       s1.src='https://embed.tawk.to/68bf3b28d0c55f1921267710/default';  
+       s1.charset='UTF-8';  
+       s1.setAttribute('crossorigin','*');  
+       s0.parentNode.insertBefore(s1,s0);  
+     })();  
+   </script>  
+5. Do not add any extra "message" button. The only way clients can message me should be through the Tawk.to chat widget.  
+6. Make the design mobile-friendly, with centered content, soft shadows, and rounded corners for sections.
+Replace the iframe codes with this <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPU713tvBUqvl8l7FSMM8u1FbcnYnRSzkbCooY6aZGX5z4ew/viewform?embedded=true" width="640" height="863" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+Now replace the current iframe codes with this <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmrZiyypR_oz4H0qG5-kQPxJCfkxIdC_kYDQCr12YnnOntsQ/viewform?embedded=true" width="640" height="820" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
